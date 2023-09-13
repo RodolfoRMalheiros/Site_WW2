@@ -73,7 +73,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f9f9f9;
-    font-size: 22vh;
+    font-size: 6vh;
     color: #f7f6f5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 30px;
@@ -98,7 +98,7 @@ h2 {
 }
 
 p {
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     margin-bottom: 10px;
     color: #faf6f6;
@@ -113,7 +113,7 @@ p {
 ul {
     list-style-type: none;
     padding: 0;
-    font-size: 5vh;
+    font-size: 3vh;
     font-family: 'Krona One', sans-serif;
     color: #eaea03;
     text-shadow: 
@@ -152,7 +152,7 @@ button:hover {
 /* Estilização do resultado */
 #result-container {
     text-align: center;
-    font-size: 8vh;
+    font-size: 5vh;
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 100%;
