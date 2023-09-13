@@ -22,18 +22,18 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 5vh;
+    font-size: 3.5vh;
 }
 
 #start-button:hover {
     background-color: #0056b3;
-    font-size: 30pt;
+    font-size: 3.6vh;
 }
 
 /* Estilização geral */
 body {
     font-family: Arial, sans-serif;
-    font-size: 6vh;
+    font-size: 3.5vh;
     background-color: #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0;
@@ -73,7 +73,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f9f9f9;
-    font-size: 6vh;
+    font-size: 3vh;
     color: #f7f6f5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 30px;
@@ -142,7 +142,7 @@ button {
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 4vhpx;
+    font-size: 4vh;
 }
 
 button:hover {
@@ -152,7 +152,7 @@ button:hover {
 /* Estilização do resultado */
 #result-container {
     text-align: center;
-    font-size: 5vh;
+    font-size: 3.5vh;
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 100%;
@@ -184,7 +184,7 @@ input[type="radio"]:checked + label {
 #feedback.correct {
     color: #0dd63c; /* Verde */
     font-family: 'Krona One', sans-serif;
-    font-size: 5vh;
+    font-size: 3vh;
     background-color: rgba(246, 246, 246, 0.387);
 }
 
@@ -192,7 +192,7 @@ input[type="radio"]:checked + label {
 #feedback.incorrect {
     color: #ec0505; /* Vermelho */
     font-family: 'Krona One', sans-serif;
-    font-size: 5vh;
+    font-size: 3vh;
     background-color: rgba(246, 246, 246, 0.387);
 }
 
@@ -212,19 +212,19 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 768px) {
     
     h1 {
-        font-size: 4vh;
+        font-size: 3vh;
     }
 
     h2 {
-        font-size: 4vh;
+        font-size: 3vh;
     }
 
     p {
-        font-size: 4vh;
+        font-size: 3vh;
     }
 
     button {
-        font-size: 14px;
+        font-size: 3vh;
         padding: 8px 16px;
     }
     .quiz-container {
