@@ -1,0 +1,236 @@
+/* Estilização da tela inicial */
+#start-screen {
+    text-align: center;
+    padding: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("imagens/00capa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+#start-button {
+    margin: auto; 
+    margin-top: 25px;   
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#start-button:hover {
+    background-color: #0056b3;
+    font-size: 30pt;
+}
+
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16vh;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    background-image: url(imagens/00mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.5vh;
+    background-color: rgba(71, 244, 9, 0.455);
+    color: #0c2402;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Estilização das perguntas */
+#question-container {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
+    font-size: 22vh;
+    color: #f7f6f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+h2 {
+    background-color: rgba(5, 88, 15, 0.402);
+    font-size: 4vh;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    margin: 10px;
+    color: #faf6f6;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,  
+        1px 1px 0 #000;  
+    
+}
+
+p {
+    font-size: 5vh;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #faf6f6;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,  
+        1px 1px 0 #000;  
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 5vh;
+    font-family: 'Krona One', sans-serif;
+    color: #eaea03;
+    text-shadow: 
+        -1px -1px 0 #000, /* Sombra superior esquerda */
+        1px -1px 0 #000,  /* Sombra superior direita */
+        -1px 1px 0 #000,  /* Sombra inferior esquerda */
+        1px 1px 0 #000;  
+}
+
+li {
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin-block-end: 0%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização do resultado */
+#result-container {
+    text-align: center;
+    font-size: 8vh;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("imagens/00mapa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilização das opções de resposta */
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Estilo para a opção selecionada */
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+#correct-answer-feedback {
+    color: #28a745;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    background-color: rgba(246, 246, 246, 0.387);
+}
+#feedback.correct {
+    color: #0dd63c; /* Verde */
+    font-family: 'Krona One', sans-serif;
+    font-size: 5vh;
+    background-color: rgba(246, 246, 246, 0.387);
+}
+
+/* Estilo para resposta incorreta */
+#feedback.incorrect {
+    color: #ec0505; /* Vermelho */
+    font-family: 'Krona One', sans-serif;
+    font-size: 5vh;
+    background-color: rgba(246, 246, 246, 0.387);
+}
+
+.result-message-important {
+    font-size: 24px; /* Tamanho de letra maior */
+    font-family: 'Bakbak One', sans-serif; /* Fonte personalizada (substitua pelo nome da sua fonte) */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #fff; /* Cor do texto */
+    text-shadow: 
+        -1px -1px 0 #000, /* Sombra superior esquerda */
+        1px -1px 0 #000,  /* Sombra superior direita */
+        -1px 1px 0 #000,  /* Sombra inferior esquerda */
+        1px 1px 0 #000;  /* Sombra inferior direita */
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 6.5vh;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 6vh;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .quiz-container {
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    
+    

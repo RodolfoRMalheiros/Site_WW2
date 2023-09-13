@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz_WW2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">        
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Segunda Guerra Mundial - World War II</h1>
+        <div id="start-screen">
+            <h2>Teste seus conhecimentos sobre a Segunda Guerra Mundial</h2>
+            <p>Responda as 10 perguntas com alternativas</p>
+            <p>e prove que você é o Mestre das Guerra!</p>
+            <button id="start-button" onclick="startQuiz()">Iniciar</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <!-- As perguntas serão carregadas aqui dinamicamente -->
+            <button id="verify-button" onclick="checkAnswer()">Verificar Resposta</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <p></p>
+            <button id="restart-button" onclick="restartQuiz()">Reiniciar</button>
+            <button id="show-images-button" onclick="showImages()">Ver Imagens</button>
+            <div id="image-container" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
