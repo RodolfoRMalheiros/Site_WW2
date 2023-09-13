@@ -58,7 +58,7 @@ h1 {
     text-align: center;
     margin: 0%;
     font-family: 'Krona One', sans-serif;
-    font-size: 4vh;
+    font-size: 3.5vh;
     background-color: rgba(71, 244, 9, 0.455);
     color: #0c2402;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -84,7 +84,7 @@ h1 {
 
 h2 {
     background-color: rgba(5, 88, 15, 0.402);
-    font-size: 4vh;
+    font-size: 2.5vh;
     font-family: 'Krona One', sans-serif;
     text-align: center;
     margin: 10px;
@@ -98,7 +98,7 @@ h2 {
 }
 
 p {
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     margin-bottom: 10px;
     color: #faf6f6;
