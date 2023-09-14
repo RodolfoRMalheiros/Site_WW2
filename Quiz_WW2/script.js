@@ -18,7 +18,7 @@ const questions = [
        
     },
     {
-        question: "Qual país foi atacado pela Alemanha e deu início à Segunda Guerra Mundial?",
+        question: "Qual o primeiro país atacado pela Alemanha, dando início à Segunda Guerra Mundial?",
         options: ["França", "Polônia", "Rússia"],
         answer: 1, 
         background: "imagens/02avioes.jpg"
