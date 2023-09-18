@@ -225,7 +225,7 @@ function showResult() {
 
     // Define as mensagens com base na pontuação
     let message = "";
-    if (finalScore < 13) {
+    if (finalScore <= 13) {
         message = "Bom, mas você pode melhorar! Responda novamente!";
     } else if (finalScore >= 14 && finalScore <= 17) {
         message = "Parabéns! Você conhece bastante sobre a Segunda Guerra Mundial!";
