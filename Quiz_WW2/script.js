@@ -30,14 +30,14 @@ const questions = [
         background: "imagens/02china.jpg"
     },
     {
-        question: "Qual foi o nome do grupo de países que lutaram contra a Alemanha durante a guerra?",
+        question: "Qual foi o nome do grupo de países que lutaram contra a Alemanha durante a guerra, formado por Inglaterra, França, Estados Unidos, Rússia e China?",
         options: ["Neutros", "Axis", "Aliados"],
         answer: 2,
         background: "imagens/04guerra.jpg"
     },
     {
         question: "Em quais cidades do Japão foram lançadas as bombas atômicas pelos Estados Unidos em agosto de 1945, encerrando a Segunda Guerra Mudnial?",
-        options: ["Tóquio e Quito", "Fukoshima e Osaka", "Hiroshima e Nagasaki"],
+        options: ["Tóquio e Quioto", "Fukoshima e Osaka", "Hiroshima e Nagasaki"],
         answer: 2,
         background: "imagens/05mar.jpg"
     },
@@ -71,7 +71,67 @@ const questions = [
         answer: 0,
         background: "imagens/08cidade.jpg"
     }
-
+    {
+            question: "Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
+            options: ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky"],
+            answer: 0,
+            background: "imagens/01soldado.jpg",
+       
+    },
+    {
+        question: "Qual foi o objetivo principal do Projeto Manhattan durante a Segunda Guerra Mundial?",
+        options: ["Desenvolver a primeira bomba atômica do mundo", "Construir uma frota de submarinos nucleares", "Criar um sistema de radar avançado"],
+        answer: 0,
+        background: "imagens/02avioes.jpg"
+    },
+    {
+        question: "Qual foi a principal contribuição militar do Brasil na Segunda Guerra Mundial?",
+        options: ["Fornecimento de alimentos para os Aliados", "Participação ativa no combate ao lado das forças Aliadas", "Produção de armas nucleares"],
+        answer: 1,
+        background: "imagens/02china.jpg"
+    },
+    {
+        question: "O que foi o Tratado de Versalhes, que desempenhou um papel importante nas causas da Segunda Guerra Mundial?",
+        options: ["Um acordo de paz que encerrou a Primeira Guerra Mundial", "Um tratado comercial entre Estados Unidos e Reino Unido", "Um acordo de não agressão entre Alemanha e União Soviética"],
+        answer: 0,
+        background: "imagens/04guerra.jpg"
+    },
+    {
+        question: "Quem era o líder da Grã-Bretanha durante a maior parte da Segunda Guerra Mundial?",
+        options: ["Neville Chamberlain", "Clement Attlee", "Winston Churchill"],
+        answer: 2,
+        background: "imagens/05mar.jpg"
+    },
+    {
+        question: "Qual foi o nome do famoso campo de concentração nazista que se tornou um símbolo do Holocausto?",
+        options: ["Auschwitz", "Dachau", "Buchenwald"],
+        answer: 0,
+        background: "imagens/06stalingrado.jpg"
+    },
+    {
+        question: "Quais foram os principais países do Eixo, aliados da Alemanha na Segunda Guerra Mundial?",
+        options: ["França e União Soviética", "Canadá e Austrália", "Itália e Japão"],
+        answer: 2,
+        background: "imagens/07tanque.jpg"
+    },
+    {
+        question: "Qual foi o resultado decisivo da Batalha de Midway, que ocorreu durante a Segunda Guerra Mundial?",
+        options: ["Vitória dos Estados Unidos, enfraquecendo a marinha japonesa", "Vitória do Japão, consolidando seu controle sobre o Pacífico", "Empate com consequências mínimas"],
+        answer: 0,
+        background: "imagens/03avioes_cidade.jpg"
+    },
+    {
+        question: "Qual foi o resultado da Batalha de Stalingrado, que teve um impacto significativo na Segunda Guerra Mundial?",
+        options: ["Vitória da Alemanha, consolidando seu avanço na União Soviética", "Vitória da União Soviética, marcando uma virada na guerra", "Trégua entre os lados em conflito"],
+        answer: 1,
+        background: "imagens/09polonia.jpg"
+    },
+    {
+        question: "Qual foi um dos eventos-chave que desencadeou a Guerra do Pacífico durante a Segunda Guerra Mundial?",
+        options: ["O ataque a Pearl Harbor pelo Japão", "A invasão da Polônia pela Alemanha", "O ataque a Londres pelas forças do Eixo"],
+        answer: 0,
+        background: "imagens/08cidade.jpg"
+    }
     // Adicione mais perguntas aqui
 ];
 
@@ -165,11 +225,11 @@ function showResult() {
 
     // Define as mensagens com base na pontuação
     let message = "";
-    if (finalScore < 7) {
+    if (finalScore < 13) {
         message = "Bom, mas você pode melhorar! Responda novamente!";
-    } else if (finalScore >= 7 && finalScore <= 9) {
+    } else if (finalScore >= 14 && finalScore <= 17) {
         message = "Parabéns! Você conhece bastante sobre a Segunda Guerra Mundial!";
-    } else if (finalScore === 10) {
+    } else if (finalScore >= 18) {
         message = "Você é um verdadeiro Mestre das Guerras! Parabéns!";
     }
 
