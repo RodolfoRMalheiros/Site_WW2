@@ -11,123 +11,123 @@ function startQuiz() {
 // Array de perguntas e respostas (você pode carregar isso do PHP)
 const questions = [
     {
-        question: "Quem foi o líder da Alemanha durante a Segunda Guerra Mundial?",
+        question: "1/20 Quem foi o líder da Alemanha durante a Segunda Guerra Mundial?",
         options: ["Winston Churchill", "Adolf Hitler", " Franklin D. Roosevelt"],
         answer: 1,// Índice da resposta correta
         background: "imagens/01soldado.jpg",
        
     },
     {
-        question: "Qual o primeiro país atacado pela Alemanha, dando início à Segunda Guerra Mundial?",
+        question: "2/20 Qual o primeiro país atacado pela Alemanha, dando início à Segunda Guerra Mundial?",
         options: ["França", "Polônia", "Rússia"],
         answer: 1, 
         background: "imagens/02avioes.jpg"
     },
     {
-        question: "Em que ano a Segunda Guerra Mundial começou?",
+        question: "3/20 Em que ano a Segunda Guerra Mundial começou?",
         options: ["1939", "1914", "1815"],
         answer: 0,
         background: "imagens/02china.jpg"
     },
     {
-        question: "Qual foi o nome do grupo de países que lutaram contra a Alemanha durante a guerra, formado por Inglaterra, França, Estados Unidos, Rússia e China?",
+        question: "4/20 Qual foi o nome do grupo de países que lutaram contra a Alemanha durante a guerra, formado por Inglaterra, França, Estados Unidos, Rússia e China?",
         options: ["Neutros", "Axis", "Aliados"],
         answer: 2,
         background: "imagens/04guerra.jpg"
     },
     {
-        question: "Em quais cidades do Japão foram lançadas as bombas atômicas pelos Estados Unidos em agosto de 1945, encerrando a Segunda Guerra Mudnial?",
+        question: "5/20 Em quais cidades do Japão foram lançadas as bombas atômicas pelos Estados Unidos em agosto de 1945, encerrando a Segunda Guerra Mudnial?",
         options: ["Tóquio e Quioto", "Fukoshima e Osaka", "Hiroshima e Nagasaki"],
         answer: 2,
         background: "imagens/05mar.jpg"
     },
     {
-        question: "O que foi o Dia D na Segunda Guerra Mundial?",
+        question: "6/20 O que foi o Dia D na Segunda Guerra Mundial?",
         options: ["O dia em que os Estados Unidos se juntaram à guerra", "O dia em que a Alemanha se rendeu", "O dia do desembarque das forças aliadas na Normandia, na França, em 1944"],
         answer: 2,
         background: "imagens/06stalingrado.jpg"
     },
     {
-        question: "Qual país sofreu mais perdas humanas durante a Segunda Guerra Mundial?",
+        question: "7/20 Qual país sofreu mais perdas humanas durante a Segunda Guerra Mundial?",
         options: ["Alemanha", "União Soviética", "Japão"],
         answer: 1,
         background: "imagens/07tanque.jpg"
     },
     {
-        question: "Qual foi a principal causa da Segunda Guerra Mundial?",
+        question: "8/20 Qual foi a principal causa da Segunda Guerra Mundial?",
         options: ["Disputa por petróleo", "Conflitos religiosos", "Nacionalismo extremo e expansão territorial"],
         answer: 2,
         background: "imagens/03avioes_cidade.jpg"
     },
     {
-        question: "O que foi o Holocausto durante a Segunda Guerra Mundial?",
+        question: "9/20 O que foi o Holocausto durante a Segunda Guerra Mundial?",
         options: ["Uma série de batalhas no oceano Atlântico", "O plano de paz para encerrar a guerra", "O genocídio dos judeus e de outros grupos pela Alemanha nazista e seus aliados"],
         answer: 2,
         background: "imagens/09polonia.jpg"
     },
     {
-        question: "Qual foi o nome do general americano que mais tarde se tornou presidente dos Estados Unidos após a guerra?",
+        question: "10/20 Qual foi o nome do general americano que mais tarde se tornou presidente dos Estados Unidos após a guerra?",
         options: ["Dwight D. Eisenhower", "Douglas MacArthur", "George Patton"],
         answer: 0,
         background: "imagens/08cidade.jpg"
     },
     {
-            question: "Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
+            question: "11/20 Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
             options: ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky"],
             answer: 0,
             background: "imagens/01soldado.jpg",
        
     },
     {
-        question: "Qual foi o objetivo principal do Projeto Manhattan durante a Segunda Guerra Mundial?",
+        question: "12/20 Qual foi o objetivo principal do Projeto Manhattan durante a Segunda Guerra Mundial?",
         options: ["Desenvolver a primeira bomba atômica do mundo", "Construir uma frota de submarinos nucleares", "Criar um sistema de radar avançado"],
         answer: 0,
         background: "imagens/02avioes.jpg"
     },
     {
-        question: "Qual foi a principal contribuição militar do Brasil na Segunda Guerra Mundial?",
+        question: "13/20 Qual foi a principal contribuição militar do Brasil na Segunda Guerra Mundial?",
         options: ["Fornecimento de alimentos para os Aliados", "Participação ativa no combate ao lado das forças Aliadas", "Produção de armas nucleares"],
         answer: 1,
         background: "imagens/02china.jpg"
     },
     {
-        question: "O que foi o Tratado de Versalhes, que desempenhou um papel importante nas causas da Segunda Guerra Mundial?",
+        question: "14/20 O que foi o Tratado de Versalhes, que desempenhou um papel importante nas causas da Segunda Guerra Mundial?",
         options: ["Um acordo de paz que encerrou a Primeira Guerra Mundial", "Um tratado comercial entre Estados Unidos e Reino Unido", "Um acordo de não agressão entre Alemanha e União Soviética"],
         answer: 0,
         background: "imagens/04guerra.jpg"
     },
     {
-        question: "Quem era o líder da Grã-Bretanha durante a maior parte da Segunda Guerra Mundial?",
+        question: "15/20 Quem era o líder da Grã-Bretanha durante a maior parte da Segunda Guerra Mundial?",
         options: ["Neville Chamberlain", "Clement Attlee", "Winston Churchill"],
         answer: 2,
         background: "imagens/05mar.jpg"
     },
     {
-        question: "Qual foi o nome do famoso campo de concentração nazista que se tornou um símbolo do Holocausto?",
+        question: "16/20 Qual foi o nome do famoso campo de concentração nazista que se tornou um símbolo do Holocausto?",
         options: ["Auschwitz", "Dachau", "Buchenwald"],
         answer: 0,
         background: "imagens/06stalingrado.jpg"
     },
     {
-        question: "Quais foram os principais países do Eixo, aliados da Alemanha na Segunda Guerra Mundial?",
+        question: "17/20 Quais foram os principais países do Eixo, aliados da Alemanha na Segunda Guerra Mundial?",
         options: ["França e União Soviética", "Canadá e Austrália", "Itália e Japão"],
         answer: 2,
         background: "imagens/07tanque.jpg"
     },
     {
-        question: "Qual foi o resultado decisivo da Batalha de Midway, que ocorreu durante a Segunda Guerra Mundial?",
+        question: "18/20 Qual foi o resultado decisivo da Batalha de Midway, que ocorreu no Oceano Pacífico durante a Segunda Guerra Mundial?",
         options: ["Vitória dos Estados Unidos, enfraquecendo a marinha japonesa", "Vitória do Japão, consolidando seu controle sobre o Pacífico", "Empate com consequências mínimas"],
         answer: 0,
         background: "imagens/03avioes_cidade.jpg"
     },
     {
-        question: "Qual foi o resultado da Batalha de Stalingrado, que teve um impacto significativo na Segunda Guerra Mundial?",
+        question: "19/20 Qual foi o resultado da Batalha de Stalingrado, que teve um impacto significativo na Segunda Guerra Mundial?",
         options: ["Vitória da Alemanha, consolidando seu avanço na União Soviética", "Vitória da União Soviética, marcando uma virada na guerra", "Trégua entre os lados em conflito"],
         answer: 1,
         background: "imagens/09polonia.jpg"
     },
     {
-        question: "Qual foi um dos eventos-chave que desencadeou a Guerra do Pacífico durante a Segunda Guerra Mundial?",
+        question: "20/20 Qual foi um dos eventos-chave que desencadeou a Guerra do Pacífico durante a Segunda Guerra Mundial?",
         options: ["O ataque a Pearl Harbor pelo Japão", "A invasão da Polônia pela Alemanha", "O ataque a Londres pelas forças do Eixo"],
         answer: 0,
         background: "imagens/08cidade.jpg"
