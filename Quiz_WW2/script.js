@@ -70,7 +70,7 @@ const questions = [
         options: ["Dwight D. Eisenhower", "Douglas MacArthur", "George Patton"],
         answer: 0,
         background: "imagens/08cidade.jpg"
-    }
+    },
     {
             question: "Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
             options: ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky"],
