@@ -221,7 +221,7 @@ function showResult() {
     resultMessage.classList.add("result-message");
 
     // Calcula a pontuação final
-    const finalScore = score;
+    const finalScore = Math.min(score, questions.length); // Limita a pontuação ao número total de perguntas
 
     // Define as mensagens com base na pontuação
     let message = "";
